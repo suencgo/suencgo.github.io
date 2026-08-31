@@ -185,6 +185,7 @@ footer p { margin: 0; }
 .visitor-map-copy small { color: var(--muted); font-size: 10px; line-height: 1.25; white-space: nowrap; }
 .visitor-count { display: inline-flex; align-items: center; min-height: 20px; }
 .visitor-count img { display: block; width: auto; height: 20px; }
+.visitor-tracking-pixel { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
 .visitor-label { display: block; margin-top: 7px; font-size: 12px; font-weight: 600; }
 
 @media (max-width: 760px) {
